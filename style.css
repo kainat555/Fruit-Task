@@ -1,0 +1,58 @@
+.header{
+    display: flex;
+    justify-content: space-between;
+}
+h1{
+    font-size: 3rem;
+    margin: 0;
+}
+input{
+    width: 250px;
+    height: 30px;
+}
+.content{
+    text-align: center;
+}
+body{
+    background: aqua;
+    color: red;
+}
+
+#user{
+    display: flex;
+    justify-content: flex-end;
+
+}
+.fa-shopping-cart,
+.fa-user{
+    font-size: 2rem;
+    margin: 0 5px;
+}
+.user{
+    cursor: pointer;
+}
+.user:hover{
+    text-decoration: underline;
+}
+.form{
+    text-align: center;
+    border: 2px solid red;
+    width: 400px;
+    height: 400px;
+    margin: 70px 550px;
+}
+.headingForm{
+    margin-top: 50px ;
+    margin-bottom: 30px;
+}
+#formBtn{
+   background: red;
+   color: aqua;
+   width: 260px;
+   height: 35px;
+   cursor: pointer;
+}
+.mainFormHeading{
+    text-align: center;
+    margin-top: 30px;
+}
