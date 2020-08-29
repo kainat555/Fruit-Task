@@ -12,3 +12,8 @@ function pageRedirect(){
 //    let user = document.getElementById("signIn").innerText;
 //    user = name.value;
 //    console.log(user)
+
+let name = document.getElementById("name").value;
+//    let user = document.getElementById("signIn").innerText;
+  console.log(name)
+//    console.log(user)

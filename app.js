@@ -137,7 +137,7 @@ function showValue() {
     remainingAmount.value =  "Your remaining amount is : Rs. " + (userAmount - billAmount);
 }
 
-let name = document.getElementById("name");
-   let user = document.getElementById("signIn").innerText;
-  console.log(name)
-   console.log(user)
+// let name = document.getElementById("name").value;
+//    let user = document.getElementById("signIn").innerText;
+//   console.log(name)
+//    console.log(user)
