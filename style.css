@@ -7,10 +7,7 @@ h1{
     font-family: 'Montserrat', sans-serif;
     font-weight: 700;
 }
-.header{
-    display: flex;
-    justify-content: space-evenly;
-}
+
 input{
     width: 250px;
     height: 30px;
@@ -24,38 +21,16 @@ input:focus
     outline: none;
     background-color: white;
 }
-/* .content{ */
-    /* text-align: center; */
-    /* display: flex;
-    align-items: center;
-    flex-flow: column wrap; */
-    /* } */
+
 body{
-        background-image:url("images/bg_img.jpg");
-        background-size: cover;
-        background-repeat: no-repeat;
-        height: auto;
-        color: white; 
-        font-family: 'Roboto', sans-serif;
-        font-weight: 400;
-        min-height: 100vh;
-}
-
-#user{
-    display: flex;
-    justify-content: flex-end;
-
-}
-.fa-shopping-cart,
-.fa-user{
-    font-size: 2rem;
-    margin: 0 5px;
-}
-.user{
-    cursor: pointer;
-}
-.user:hover{
-    text-decoration: underline;
+     background-image:url("images/bg_img.jpg");
+     background-size: cover;
+     background-repeat: no-repeat;
+     height: auto;
+     color: white; 
+     font-family: 'Roboto', sans-serif;
+     font-weight: 400;
+     min-height: 100vh;
 }
 .form{
     display: flex;
@@ -78,9 +53,8 @@ body{
   border-radius: 20px;
   color: white;
 }
-.mainFormHeading{
-    text-align: center;
-    margin-top: 30px;
+#formBtn:focus{
+    outline: none;
 }
 ::placeholder{
     color: white;

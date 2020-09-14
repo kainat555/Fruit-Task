@@ -6,7 +6,8 @@
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <script src="https://kit.fontawesome.com/b0ae396e2b.js" crossorigin="anonymous"></script>
         <title>Fruit Shop</title>
-        <link rel="stylesheet" href="style.css">
+        <!-- <link rel="stylesheet" href="style.css"> -->
+        <link rel="stylesheet" href="main.css">
 </head>
 
 <body>
@@ -16,13 +17,13 @@
                         <h1>Fruit Shop</h1>
                         <input type="text" id="remainingAmount" placeholder="Your Remaining amount is...">
                 </div>
-                <div id="user">
+                <!-- <div id="user">
                         <i class="fa fa-shopping-cart" aria-hidden="true"></i><span>Add To Cart</span>
                         <i class="fa fa-user" aria-hidden="true"></i><span id="signIn">Sign In</span>
-                </div>
+                </div> -->
                 <div class="content">
                         <h3>How many items do you want to buy?</h3>
-                        <img width="200px" height="200px" src="images/appleImg.jpg" alt="">
+                        <img width="300px" height="200px" src="images/appleImg.jpg" alt="">
                         <p>Per Piece price = Rs. 30 <br><br>
                                 <button onclick="increaseValue1()">+</button><span id="val1"> 00 </span>
                                 <button id="decreaseBtn1" onclick="decreaseValue1()">-</button>
@@ -34,24 +35,24 @@
                                 <button onclick="decreaseValue2()">-</button>
                         </p>
                         <br>
-                        <img width="200px" height="200px" src="images/mangoImg.jpg" alt="">
+                        <img width="300px" height="200px" src="images/mangoImg.jpg" alt="">
                         <p>Per Piece price = Rs. 25<br><br>
                                 <button onclick="increaseValue3()">+</button><span id="val3"> 00</span>
                                 <button onclick="decreaseValue3()">-</button>
                         </p>
                         <br>
-                        <img width="200px" height="200px" src="images/papayaImg.jpg" alt="">
+                        <img width="280px" height="200px" src="images/papayaImg.jpg" alt="">
                         <p>Per Piece price = Rs. 40<br><br>
                                 <button onclick="increaseValue4()">+</button> <span id="val4"> 00</span>
                                 <button onclick="decreaseValue4()">-</button>
                         </p>
                         <br>
-                        <img width="200px" height="200px" src="images/strawberryImg.jpg" alt="">
+                        <img width="350px" height="200px" src="images/strawberryImg.jpg" alt="">
                         <p id="showValue">Per Piece price = Rs. 10<br><br>
                                 <button onclick="increaseValue5()">+</button> <span id="val5"> 00</span>
                                 <button onclick="decreaseValue5()">-</button>
                                 <br><br>
-                                <button onclick="showValue()">Click to show your bill</button><br><br>
+                                <button id="calcBtn" onclick="showValue()">Click to show your bill</button><br><br>
                         </p>
                 </div>
         </div>
